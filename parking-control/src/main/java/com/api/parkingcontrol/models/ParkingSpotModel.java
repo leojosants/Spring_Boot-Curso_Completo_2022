@@ -10,7 +10,6 @@ import java.util.UUID;
 @Table(name = "TB_PARKING_SPOT")
 public class ParkingSpotModel implements Serializable {
 
-//    @Serial
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -30,7 +29,7 @@ public class ParkingSpotModel implements Serializable {
     private String modelCar;
 
     @Column(nullable = false, length = 70)
-    private String corCar;
+    private String colorCar;
 
     @Column(nullable = false)
     private LocalDateTime registrationDate;
@@ -84,12 +83,12 @@ public class ParkingSpotModel implements Serializable {
         this.modelCar = modelCar;
     }
 
-    public String getCorCar() {
-        return corCar;
+    public String getColorCar() {
+        return colorCar;
     }
 
-    public void setCorCar(String corCar) {
-        this.corCar = corCar;
+    public void setColorCar(String colorCar) {
+        this.colorCar = colorCar;
     }
 
     public LocalDateTime getRegistrationDate() {

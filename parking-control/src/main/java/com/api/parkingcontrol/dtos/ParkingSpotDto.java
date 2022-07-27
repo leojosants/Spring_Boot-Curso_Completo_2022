@@ -13,6 +13,9 @@ public class ParkingSpotDto {
     private String licensePlateCar;
 
     @NotBlank
+    private String brandCar;
+
+    @NotBlank
     private  String modelCar;
 
     @NotBlank
@@ -81,5 +84,13 @@ public class ParkingSpotDto {
 
     public void setBlock(String block) {
         this.block = block;
+    }
+
+    public String getBrandCar() {
+        return brandCar;
+    }
+
+    public void setBrandCar(String brandCar) {
+        this.brandCar = brandCar;
     }
 }
