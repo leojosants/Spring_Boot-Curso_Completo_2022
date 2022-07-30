@@ -1,4 +1,4 @@
-# Spring Boot | Spring Security Curso Completo 2022
+# Spring Boot | Spring Security
 
 <a href="https://www.youtube.com/watch?v=LXRU-Z36GEU">Curso realizado no canal Michele Brito</a>
  
